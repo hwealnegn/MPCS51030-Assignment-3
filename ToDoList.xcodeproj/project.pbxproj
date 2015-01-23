@@ -39,8 +39,8 @@
 		3B28FE881A72E25A00FC68F1 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B28FE8D1A72E25A00FC68F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B28FE8E1A72E25A00FC68F1 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
-		3B28FE981A73075600FC68F1 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
-		3B28FE991A73075600FC68F1 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
+		3B28FE981A73075600FC68F1 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddToDoItemViewController.h; path = ../AddToDoItemViewController.h; sourceTree = "<group>"; };
+		3B28FE991A73075600FC68F1 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddToDoItemViewController.m; path = ../AddToDoItemViewController.m; sourceTree = "<group>"; };
 		3B28FE9B1A7308C200FC68F1 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
 		3B28FE9C1A7308C200FC68F1 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +66,6 @@
 		3B28FE661A72E25A00FC68F1 = {
 			isa = PBXGroup;
 			children = (
-				3B28FE981A73075600FC68F1 /* AddToDoItemViewController.h */,
-				3B28FE991A73075600FC68F1 /* AddToDoItemViewController.m */,
 				3B28FE711A72E25A00FC68F1 /* ToDoList */,
 				3B28FE8B1A72E25A00FC68F1 /* ToDoListTests */,
 				3B28FE701A72E25A00FC68F1 /* Products */,
@@ -89,6 +87,8 @@
 				3B28FE761A72E25A00FC68F1 /* AppDelegate.h */,
 				3B28FE771A72E25A00FC68F1 /* AppDelegate.m */,
 				3B28FE7C1A72E25A00FC68F1 /* Main.storyboard */,
+				3B28FE981A73075600FC68F1 /* AddToDoItemViewController.h */,
+				3B28FE991A73075600FC68F1 /* AddToDoItemViewController.m */,
 				3B28FE9B1A7308C200FC68F1 /* ToDoListTableViewController.h */,
 				3B28FE9C1A7308C200FC68F1 /* ToDoListTableViewController.m */,
 				3B28FE7F1A72E25A00FC68F1 /* Images.xcassets */,
